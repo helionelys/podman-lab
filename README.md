@@ -3,7 +3,8 @@ Laboratório de testes para manipulação de imagem container PostgreSQL usando 
 
 ### Recursos utilizados
 - Máquina virtual tendo como sistema operacional base Fedora Workstation (41)
-- Instalação do Podman (Comando bash)
- - sudo dnf install podman -y
+- Instalação do Podman
 
-## Sequencia de ações
+#### Passos utilizados
+- Download da imagem PostgreSQL:Latest do Docker HUB
+-- podman pull docker.io/postgres:latest
