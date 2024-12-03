@@ -6,5 +6,11 @@ Laboratório de testes para manipulação de imagem container PostgreSQL usando 
 - Instalação do Podman
 
 #### Passos utilizados
-Download da imagem PostgreSQL:Latest do Docker HUB
-- podman pull docker.io/postgres:latest
+- Download da imagem PostgreSQL:Latest do Docker HUB
+$ podman pull docker.io/postgres:latest
+
+- Listar imagem no repositório local
+$ podman images
+
+- Aplicando tag a imagem baixada
+$ podman tag docker.io/library/postgres:latest postgres-hub4it:17.5
