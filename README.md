@@ -15,3 +15,10 @@ Laboratório de testes para manipulação de imagem container PostgreSQL usando 
 
 #### - Aplicando tag a imagem baixada
 ##### $ podman tag docker.io/library/postgres:latest postgres-hub4it:17.5
+
+#### - Autenticação e envio da imagem do container para repositório do Quay.io
+##### $ podma login quay.io 
+##### username: helionelys
+##### Password: **********
+
+##### $ podman push postgres-hub4it:17 quay.io/heionelys/postgres-hub4it:17
