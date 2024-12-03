@@ -20,4 +20,4 @@ Laboratório de testes para manipulação de imagem container PostgreSQL usando 
 ##### username: helionelys
 ##### Password: **********
 
-##### $ podman push postgres-hub4it:17 quay.io/heionelys/postgres-hub4it:17
+##### $ podman push postgres-hub4it:17 quay.io/helionelys/postgres-hub4it:17
